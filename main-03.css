@@ -1,0 +1,14 @@
+#parent {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#child-01, #child-04 {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+
+
+
+

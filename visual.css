@@ -1,0 +1,13 @@
+/* For visual reference only */
+#parent, #container {
+    border: solid 2px red;
+    padding: 1rem;
+}
+#parent div, #container > * {
+    border: dashed 2px black;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center; 
+}
+

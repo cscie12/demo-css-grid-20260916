@@ -1,0 +1,11 @@
+#parent {
+    display: grid;
+    height: 500px;
+    grid-template-columns: repeat(5, minmax(50px, 1fr));
+
+}
+
+
+
+
+
